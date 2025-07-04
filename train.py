@@ -30,7 +30,7 @@ from utils.data import Augmenter2D
 
 def parse_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--config", type=str, default="configs/h36m/MotionAGFormer-base.yaml", help="Path to the config file.")
+    parser.add_argument("--config", type=str, default="configs/h36m/MixTGFormer.yaml", help="Path to the config file.")
     parser.add_argument('-c', '--checkpoint', type=str, metavar='PATH',
                         help='checkpoint directory')
     parser.add_argument('--new-checkpoint', type=str, metavar='PATH', default='checkpoint',
