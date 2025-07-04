@@ -24,7 +24,7 @@ from utils.utils_3dhp import *
 
 def parse_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--config", type=str, default="configs/mpi/MotionAGFormer-large.yaml", help="Path to the config file.")
+    parser.add_argument("--config", type=str, default="configs/mpi/MixTGFormer.yaml", help="Path to the config file.")
     parser.add_argument('-c', '--checkpoint', type=str, metavar='PATH',
                         help='checkpoint directory')
     parser.add_argument('--checkpoint-file', type=str, help="checkpoint file name")
