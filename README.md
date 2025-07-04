@@ -1,6 +1,6 @@
-# MixTGformer(Dual-stream Spatio-Temporal GCN-Transformer Network for 3D Human Pose Estimation)
+# MixTGFormer(Dual-stream Spatio-Temporal GCN-Transformer Network for 3D Human Pose Estimation)
 
-The official code repository for the MixTGformer.
+The official code repository for the MixTGFormer.
 ![mixtgformer.jpg](mixtgformer.jpg)
 
 ## Environment
