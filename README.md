@@ -12,7 +12,9 @@ The official code repository for the MixTGformer.
 ## Dataset
 ### Human3.6M
 * Preprocessing
+
   Download the fine-tuned Stacked Hourglass detections of [MotionBERT's](https://github.com/Walter0807/MotionBERT/blob/main/docs/pose3d.md) preprocessed H3.6M data [here](https://onedrive.live.com/?authkey=%21AMG5RlzJp%2D7yTNw&id=A5438CD242871DF0%21206&cid=A5438CD242871DF0&parId=root&parQt=sharedby&o=OneUp) and unzip it to (`data/motion3d`).
+  
   Slice the motion clips by running the following python code in directory:(`data/preprocess`).
 * Visualization
   Run the following command in the directory:(`data/preprocess`).
@@ -44,10 +46,11 @@ The official code repository for the MixTGformer.
   where config files are located at (`configs/mpi`). Like Human3.6M, weight and biases can be used.
 
 ## Evaluation
-|  表头   | 表头  | 表头  |
+|  Method  | H3.6M weights	  | MPI-INF-3DHP weights  |
 |  ----  | ----  | ----  |
-| 单元格  | 单元格 | 单元格 |
-| 单元格  | 单元格 | 单元格 |
+| MixTGFormer-S  | download | download |
+| MixTGformer  | download | download |
+
   After downloading the weight from table above, you can evaluate Human3.6M models by:
    ```
   python train.py --eval-only --checkpoint <CHECKPOINT-DIRECTORY> --checkpoint-file <CHECKPOINT-FILE-NAME> --config <PATH-TO-CONFIG>
@@ -61,3 +64,8 @@ The official code repository for the MixTGformer.
   python train_3dhp.py --eval-only --checkpoint <CHECKPOINT-DIRECTORY> --checkpoint-file <CHECKPOINT-FILE-NAME> --config <PATH-TO-CONFIG>
    ```
 
+## Acknowledgement
+* [MotionBERT](https://github.com/Walter0807/MotionBERT)
+* [P-STMO](https://github.com/paTRICK-swk/P-STMO)
+* [MotionAGFormer](https://github.com/TaatiTeam/MotionAGFormer)
+* Thank you very much for his contribution！
