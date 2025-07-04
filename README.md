@@ -55,9 +55,9 @@ The official code repository for the MixTGformer.
    ```
   python train.py --eval-only --checkpoint <CHECKPOINT-DIRECTORY> --checkpoint-file <CHECKPOINT-FILE-NAME> --config <PATH-TO-CONFIG>
    ```
-  For example if MixTGformer of Human 3.6M is downloaded and put in directory, then we can run:checkpoint
+  For example if MixTGFormer of Human 3.6M is downloaded and put in directory, then we can run:checkpoint
    ```
-  python train.py --eval-only --checkpoint checkpoint --checkpoint-file mixtgformer-h36m.pth.tr --config configs/h36m/mixtgformer.yaml
+  python train.py --eval-only --checkpoint checkpoint --checkpoint-file mixtgformer-h.pth.tr --config configs/h36m/MixTGFormer.yaml
    ```
   Similarly, MPI-INF-3DHP can be evaluated as follows:
    ```
