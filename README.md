@@ -25,6 +25,7 @@ The official code repository for the MixTGFormer.
   This should create a gif file named within directory:`h36m_pose<SEQ_NUMBER>.gif`.
 ### MPI-INF-3DHP
 * Preprocessing
+  
   Please refer to [P-STMO](https://github.com/paTRICK-swk/P-STMO#mpi-inf-3dhp) for dataset setup. After preprocessing, the generated .npz files should be located at `data/motion3d`.
 * Visualization
   
