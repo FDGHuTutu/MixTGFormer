@@ -17,6 +17,7 @@ The official code repository for the MixTGFormer.
   
   Slice the motion clips by running the following python code in directory:`data/preprocess`.
 * Visualization
+  
   Run the following command in the directory:`data/preprocess`.
   ```
   python visualize.py --dataset h36m --sequence-number <AN ARBITRARY NUMBER>
@@ -26,6 +27,7 @@ The official code repository for the MixTGFormer.
 * Preprocessing
   Please refer to [P-STMO](https://github.com/paTRICK-swk/P-STMO#mpi-inf-3dhp) for dataset setup. After preprocessing, the generated .npz files should be located at `data/motion3d`.
 * Visualization
+  
   Run it same as the visualization for Human3.6M, but should be set to `--dataset mpi`.
 
 ## Training
