@@ -24,7 +24,7 @@ The official code repository for the MixTGformer.
   This should create a gif file named within directory:`h36m_pose<SEQ_NUMBER>.gif`.
 ### MPI-INF-3DHP
 * Preprocessing
-  Please refer to P-STMO for dataset setup. After preprocessing, the generated .npz files should be located at `data/motion3d`.
+  Please refer to [P-STMO](https://github.com/paTRICK-swk/P-STMO#mpi-inf-3dhp) for dataset setup. After preprocessing, the generated .npz files should be located at `data/motion3d`.
 * Visualization
   Run it same as the visualization for Human3.6M, but should be set to `--dataset mpi`.
 
@@ -46,18 +46,18 @@ The official code repository for the MixTGformer.
   where config files are located at `configs/mpi`. Like Human3.6M, weight and biases can be used.
 
 ## Evaluation
-|  Method  | H3.6M weights	  | MPI-INF-3DHP weights  |
+|  Method  | Human 3.6M weights	  | MPI-INF-3DHP weights  |
 |  ----  | ----  | ----  |
-| MixTGFormer-S  | download | download |
-| MixTGformer  | download | download |
+| MixTGFormer-S  | [download]() | [download]() |
+| MixTGformer  | [download]() | [download]() |
 
   After downloading the weight from table above, you can evaluate Human3.6M models by:
    ```
   python train.py --eval-only --checkpoint <CHECKPOINT-DIRECTORY> --checkpoint-file <CHECKPOINT-FILE-NAME> --config <PATH-TO-CONFIG>
    ```
-  For example if MotionAGFormer-L of H.36M is downloaded and put in directory, then we can run:checkpoint
+  For example if MixTGformer of Human 3.6M is downloaded and put in directory, then we can run:checkpoint
    ```
-  python train.py --eval-only --checkpoint checkpoint --checkpoint-file motionagformer-l-h36m.pth.tr --config configs/h36m/MotionAGFormer-large.yaml
+  python train.py --eval-only --checkpoint checkpoint --checkpoint-file mixtgformer-h36m.pth.tr --config configs/h36m/mixtgformer.yaml
    ```
   Similarly, MPI-INF-3DHP can be evaluated as follows:
    ```
