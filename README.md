@@ -52,7 +52,7 @@ The official code repository for the MixTGFormer.
 |  Method  | Human 3.6M weights	  | MPI-INF-3DHP weights  |
 |  ----  | ----  | ----  |
 | MixTGFormer-S  | [download]() | [download]() |
-| MixTGformer  | [download](https://pan.quark.cn/s/318693294f6c) | [download]() |
+| MixTGFormer  | [download](https://pan.quark.cn/s/318693294f6c) | [download]() |
 
   After downloading the weight from table above, you can evaluate Human3.6M models by:
    ```
