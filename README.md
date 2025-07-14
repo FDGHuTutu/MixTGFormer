@@ -54,6 +54,9 @@ The official code repository for the MixTGFormer.
 | MixTGFormer-S  | [download]() | [download]() |
 | MixTGFormer  | [download](https://pan.quark.cn/s/318693294f6c) | [download]() |
 
+Currently we only provide the weights of MixTGFormer on the Human 3.6M dataset, and we will upload the rest of the weight files in the next two weeks.
+
+
   After downloading the weight from table above, you can evaluate Human3.6M models by:
    ```
   python train.py --eval-only --checkpoint <CHECKPOINT-DIRECTORY> --checkpoint-file <CHECKPOINT-FILE-NAME> --config <PATH-TO-CONFIG>
